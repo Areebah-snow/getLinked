@@ -9,7 +9,13 @@
 
 .leftHeader{
     
-    width: 500px;
+    width: 700px;
+}
+
+.bulb{
+    top: -50px;
+    right: 15px;
+
 }
 
 .leftHeader p{
@@ -59,15 +65,14 @@
   }
 
 
-  p{
-    display: inline-block;
-  }
-  .time p{
+  .time{
     font-family: 'Roboto Condensed';
     padding-right: 10px;
-    font-size: 50rem;
+    font-size: 45px;
+    display: inline-block;
+    margin-top: 70px;
     
   }
   .time span{
-     font-size: 15px;
+    font-size: 15px;
   }
