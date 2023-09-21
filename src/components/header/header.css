@@ -1,0 +1,73 @@
+.headerDetails{
+    display: flex;
+    align-items: center;
+}
+.star img{
+    top: 0px;
+    left: 80px;
+}
+
+.leftHeader{
+    
+    width: 500px;
+}
+
+.leftHeader p{
+    font-size: 20px;
+    margin-block: 15px;
+}
+
+.registerBtn{
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.rightHeader{
+    margin-top: 50px;
+}
+
+.volt{
+    position: absolute;
+    z-index: 2;
+
+}
+
+.hand{
+    filter: hue-rotate(250deg); 
+    z-index: 1;
+    width: 700px;
+    
+}
+
+.background-effect {
+    position: relative;
+    background: url('../../images/Image\ 1.png') center/cover no-repeat; /* Replace 'path-to-your-image.jpg' with the path to your volt image */
+    z-index: -1; /* Place the background behind other content */
+    opacity: 0.7; /* Adjust the opacity to make it transparent */
+  }
+
+  .volt2{
+    z-index: -100;
+    position: absolute;
+    filter: hue-rotate(70deg); 
+    width: 2000pc;
+    right: -200px;
+    top: -100px;
+    opacity: 0.5;
+    
+  }
+
+
+  p{
+    display: inline-block;
+  }
+  .time p{
+    font-family: 'Roboto Condensed';
+    padding-right: 10px;
+    font-size: 50rem;
+    
+  }
+  .time span{
+     font-size: 15px;
+  }
