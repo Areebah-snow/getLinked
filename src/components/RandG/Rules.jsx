@@ -14,8 +14,8 @@ const Rules = () => {
             </div>
 
             <div className="right">
-                <h1 className='font-bold'>Introduction to getlinked <br></br>
-                    <span className='text-purplePink'>tech Hackathon 1.0</span>
+                <h1 className='font-bold'>Rules and <br></br>
+                    <span className='text-purplePink'>Guidelines</span>
                 </h1>
                 <p>
                 Our tech hackathon is a melting pot of visionaries, and its purpose is as

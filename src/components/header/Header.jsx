@@ -7,6 +7,7 @@ import Volt from '../../images/Image 1.png';
 import chain from '../../images/chain-9365116-7621444.svg';
 import CountdownTimer from '../timer/CountdownTimer';
 import Creative from '../../images/Creative 1.svg'
+import RegisterBtn from '../RegisterBtn';
 
 
 const Header = () => {
@@ -32,12 +33,8 @@ const Header = () => {
                
                 </span>  Hackathon<span className='text-purplePink'>1.0</span><img className='inline-block' src={chain} alt="" />💥</h1>
             <p>Participate in getlinked tech Hackathon 2023<br></br> stand a chance to win a Big prize</p>
-            <a
-              className="registerBtn bg-gradient-to-r from-pink-500 to-purple-500 px-8 py-2 border-transparent rounded"
-              href="/"
-            >
-              Register
-            </a>
+          <RegisterBtn
+          title='Register'/>
 
        
 

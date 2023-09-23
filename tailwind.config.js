@@ -8,6 +8,7 @@ module.exports = {
         primary: '#903AFF',
         purplePink: '#D434FE',
         bgColor: '#150E28',
+        attriPink: '#FF26B9'
       },
 
       fontFamily: {

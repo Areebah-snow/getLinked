@@ -18,7 +18,7 @@ class CountdownTimer extends Component {
   }
 
   calculateTimeRemaining = () => {
-    const endDate = new Date('2023-09-29T23:59:59').getTime(); // End date in milliseconds
+    const endDate = new Date('2023-09-23T23:59:59').getTime(); // End date in milliseconds
     const currentTime = new Date().getTime(); // Current time in milliseconds
     const timeRemaining = endDate - currentTime;
 
